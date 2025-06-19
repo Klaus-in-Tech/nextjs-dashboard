@@ -1,3 +1,8 @@
+import InvoicesTable from '@/app/components/invoices/table';
+
+
+
+
 export default function Page() {
-  return <p>Invoices Page</p>;
+  return <InvoicesTable query="" currentPage={1} />;
 }
