@@ -1,4 +1,3 @@
-import exp from 'constants';
 import { Inter, Lusitana, Nunito_Sans } from 'next/font/google';
 
  
