@@ -1,9 +1,14 @@
 import AcmeLogo from '@/app/components/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import styles from '@/app/ui/home.module.css';
+import styles from '@/app/components/home.module.css';
 import { lusitana } from '@/app/components/fonts';
 import Image from 'next/image';
+import { Metadata } from 'next';
+ 
+export const metadata: Metadata = {
+  title: 'ACME Dashboard',
+};
 
 export default function Page() {
   return (
